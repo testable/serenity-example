@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
 
 @RunWith(SerenityRunner.class)
-public class GoogleSearchTest {
+public class GoogleSearchTwoTest {
 
     @Managed
     WebDriver driver;
@@ -17,8 +17,14 @@ public class GoogleSearchTest {
     SearchSteps searchSteps;
 
     @Test
-    public void searchForKeyword() {
+    public void searchForKeywordNew() {
         searchSteps.opens_home_page();
-        searchSteps.searches_by_keyword("firefly");
+        searchSteps.searches_by_keyword("test");
+    }
+
+    @Test
+    public void searchForOtherStuff() {
+        searchSteps.opens_home_page();
+        searchSteps.searches_by_keyword("other stuff");
     }
 }
