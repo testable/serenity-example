@@ -8,7 +8,7 @@ in the root of the repository. If both are detected, Gradle will be used.
 **Maven**: `mvn clean test -Dmaven.test.failure.ignore=true [params as system properties]` ([maven branch](https://github.com/testable/serenity-example/tree/maven))
 
 To configure system properties either create scenario parameters or a
-[serenity.properties](src/test/resources/serenity.properties) file with
+[src/test/resources/serenity.properties](src/test/resources/serenity.properties) file with
 any [settings](http://www.thucydides.info/docs/serenity/#_serenity_system_properties_and_configuration).
 
 Testable will override the value of the following properties when this code is executed
