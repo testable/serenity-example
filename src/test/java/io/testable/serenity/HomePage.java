@@ -18,6 +18,6 @@ public class HomePage extends PageObject {
     public void enterSearchTerms(String keyword) {
         searchBox.typeAndEnter(keyword);
         withTimeoutOf(10, TimeUnit.SECONDS).waitForTitle(keyword + " - Google Search");
-        assertThat(getTitle()).isEqualTo(keyword + " - 11Google Search");
+        assertThat(getTitle()).isEqualTo(keyword + " - Google Search");
     }
 }
