@@ -22,8 +22,8 @@ apply plugin: 'net.serenity-bdd.aggregator'
 dependencies {
     testImplementation 'net.serenity-bdd:serenity-core:2.4.34'
     testImplementation 'net.serenity-bdd:serenity-junit:2.4.34'
-    testImplementation('junit:junit:4.12')
-    testImplementation('org.assertj:assertj-core:1.7.0')
+    testImplementation('junit:junit:4.13.1')
+    testImplementation('org.assertj:assertj-core:3.8.0')
     testImplementation('org.slf4j:slf4j-simple:1.7.7')
 }
 gradle.startParameter.continueOnFailure = true
