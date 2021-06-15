@@ -12,7 +12,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath("net.serenity-bdd:serenity-gradle-plugin:2.3.12")
+        classpath("net.serenity-bdd:serenity-gradle-plugin:2.4.34")
     }
 }
 
@@ -20,8 +20,8 @@ apply plugin: 'java'
 apply plugin: 'net.serenity-bdd.aggregator'
 
 dependencies {
-    testImplementation 'net.serenity-bdd:serenity-core:2.3.12'
-    testImplementation 'net.serenity-bdd:serenity-junit:2.3.12'
+    testImplementation 'net.serenity-bdd:serenity-core:2.4.34'
+    testImplementation 'net.serenity-bdd:serenity-junit:2.4.34'
     testImplementation('junit:junit:4.12')
     testImplementation('org.assertj:assertj-core:1.7.0')
     testImplementation('org.slf4j:slf4j-simple:1.7.7')
